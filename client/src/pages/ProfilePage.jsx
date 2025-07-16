@@ -8,10 +8,12 @@ const ProfilePage = () => {
       border-gray-600 flex items-center justify-between max-=sm:flex-col-reverse
       rounded-lg'>
         <form className='flex flex-col gap-5 p-10 flex-1'>
-          <h3>Profile details</h3>
-          <label htmlFor="avatar">
-              <input type="text" />
-              <img src="" alt="" />
+          <h3 className='text-lg'>Profile details</h3>
+          <label htmlFor="avatar" className='flex items-center gap-3
+           cursor-pointer'>
+              <input type="file" onChange={(e)=>setSelectedImg(e.target.files[0])}
+              id='avatar' accept='.png, .jpg, .jpeg' hidden/>
+              <img src={selectedImg} alt="" />
           </label>
         </form>
          <img src="" alt="" />
