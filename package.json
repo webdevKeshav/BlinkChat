@@ -1,6 +1,20 @@
 {
-  "dependencies": {
-    "@tailwindcss/vite": "^4.1.11",
-    "tailwindcss": "^4.1.11"
-  }
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "BlinkChat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webdevKeshav/BlinkChat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webdevKeshav/BlinkChat/issues"
+  },
+  "homepage": "https://github.com/webdevKeshav/BlinkChat#readme"
 }
