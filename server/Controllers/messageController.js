@@ -56,7 +56,6 @@ export const getMessages = async (req, res)=>{
 
 export const markMssageAsSeen = async(req, res)=>{
     try {
-
         const {id} = req.params;
         await Message.findByIdAndUpdate(id, {seen : true});
         res.json({success : true});
