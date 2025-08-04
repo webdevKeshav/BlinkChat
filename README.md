@@ -1,1 +1,1 @@
-BlinkChat
+QuickChat
